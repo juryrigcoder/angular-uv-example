@@ -16,7 +16,7 @@ export class AppComponent {
       "uv",
       {
         manifestUri: "https://wellcomelibrary.org/iiif/b18035723/manifest",
-        configUri: "config.json",
+        configUri: "/config/config.json",
       },
       new UV.URLDataProvider()
     )

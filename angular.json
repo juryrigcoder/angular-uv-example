@@ -22,9 +22,9 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/vendor",
               "src/uv-assets",
-              "src/uv-dist-umd"
+              "src/uv-dist-umd",
+              "src/config"
             ],
             "styles": [
               "src/styles.css"
@@ -88,9 +88,9 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/vendor",
               "src/uv-assets",
-              "src/uv-dist-umd"
+              "src/uv-dist-umd",
+              "src/config"
             ],
             "styles": [
               "src/styles.css"
