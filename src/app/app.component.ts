@@ -9,16 +9,16 @@ declare var UV: any;
 })
 export class AppComponent {
   title = 'angular-example';
-  _uv: any;
+  uv: any;
 
   ngOnInit(): void{
-    this._uv = UV.init(
-      "uv",
+    this.uv = UV.init(
+      'uv',
       {
-        manifestUri: "https://wellcomelibrary.org/iiif/b18035723/manifest",
-        configUri: "/config/config.json",
+        manifestUri: 'https://wellcomelibrary.org/iiif/b18035723/manifest',
+        configUri: 'config/config.json'
       },
       new UV.URLDataProvider()
-    )
-  };
+    );
+  }
 }
