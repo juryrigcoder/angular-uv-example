@@ -1,1 +1,6 @@
 node_modules
+uv-assets
+uv-dist-umd
+uv.html
+uv.css
+package-lock.json
