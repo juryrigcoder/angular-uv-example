@@ -6,7 +6,6 @@
     "start": "ng serve",
     "build": "ng build",
     "lint": "ng lint",
-    "e2e": "ng e2e",
     "copy": "npm run copy-uv-assets && npm run copy-uv-dist-umd && npm run copy-uv-html && npm run copy-uv-css",
     "copy-uv-assets": "cp -R node_modules/universalviewer/dist/uv-assets src/",
     "copy-uv-dist-umd": "cp -R node_modules/universalviewer/dist/uv-dist-umd src/",
